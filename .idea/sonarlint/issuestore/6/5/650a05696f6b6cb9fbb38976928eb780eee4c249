@@ -1,0 +1,25 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(–ñıÿÿÿÿ8ÆÀúÎ˜2
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ëôœ8ÇÀúÎ˜2
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Â¸Ò¶8ÇÀúÎ˜2
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì»Ë¹
+[
+java:S5993"9Change the visibility of this constructor to "protected".(‘ìÉ±ûÿÿÿÿ8ÓÀúÎ˜2
+‚
+java:S1149	"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÙˆøÎ8ÔÀúÎ˜2
+‡
+java:S1149
+"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(–ÓÖ¯şÿÿÿÿ8ÔÀúÎ˜2
+‡
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‡Šè ıÿÿÿÿ8ÔÀúÎ˜2
+‡
+java:S1149("eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ù²Ç¾ùÿÿÿÿ8ÔÀúÎ˜2
+‚
+java:S1149,"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ê¶àÔ8ÔÀúÎ˜2
+‚
+java:S1149/"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(€†8ÔÀúÎ˜2
+B
+java:S2129" Remove this "String" constructor(£¬í¡ùÿÿÿÿ8ÛÀúÎ˜2

@@ -1,0 +1,16 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾ÜªÍ8ÆÑ„Ï˜2
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²¹’„øÿÿÿÿ
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾ÜªÍ8ËÑ„Ï˜2
+‡
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‡×°ıÿÿÿÿ8ËÑ„Ï˜2
+E	java:S106"+Replace this use of System.out by a logger.(™L8ÏÑ„Ï˜2
+_
+java:S1854("=Remove this useless assignment to local variable "atualizar".(üãÕ›üÿÿÿÿ8ÑÑ„Ï˜2
+_
+java:S1854*"=Remove this useless assignment to local variable "atualizar".(»‹êıÿÿÿÿ8ÑÑ„Ï˜2
+J
+java:S1481'".Remove this unused "atualizar" local variable.(·Êô 8ÒÑ„Ï˜2
+G	java:S106+"+Replace this use of System.out by a logger.(â¡¡ÿ8ÓÑ„Ï˜2

@@ -1,0 +1,15 @@
+
+{
+java:S2293f"YReplace the type specification in this constructor call with the diamond operator ("<>").(„–úÂüÿÿÿÿ8ÿÅÏ˜2
+m	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àâá¨8€ÆÏ˜2
+Y
+java:S4973"<Strings and Boxed types should be compared using "equals()".(Œÿ‰°8‚ÆÏ˜2
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²¹’„øÿÿÿÿ
+‡
+java:S1149?"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¶òèÂøÿÿÿÿ8†ÆÏ˜2
+L	java:S106"+Replace this use of System.out by a logger.(°Ó¸ëøÿÿÿÿ8ŠÆÏ˜2
+G	java:S106*"+Replace this use of System.out by a logger.(–ñåû8‹ÆÏ˜2
+L	java:S106C"+Replace this use of System.out by a logger.(ìéŸæÿÿÿÿÿ8ÆÏ˜2
+o
+java:S3776z"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ë÷Á£8’ÆÏ˜2
+H	java:S106‚"+Replace this use of System.out by a logger.(Ñ¥»›8”ÆÏ˜2
