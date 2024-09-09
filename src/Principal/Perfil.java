@@ -3,7 +3,7 @@ package Principal;
 import java.util.Vector;
 import Principal.Tweet;
 
-public abstract class Perfil {
+public class Perfil {
 
     private String usuario;
     private Vector<Perfil> seguidos;
@@ -12,7 +12,7 @@ public abstract class Perfil {
     private boolean ativo;
 
     public Perfil(String usuario) {
-	this.usuario = new String();
+//	this.usuario = new String();
 	this.usuario = usuario;
 	ativo = true;
 	timeline = new Vector<Tweet>();
