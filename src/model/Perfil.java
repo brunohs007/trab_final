@@ -1,8 +1,10 @@
 package model;
 
+import java.io.Serializable;
 import java.util.Vector;
 
-public class Perfil {
+public class Perfil implements Serializable {
+
     private String usuario;
     private Vector<Perfil> seguidos;
     private Vector<Perfil> seguidores;

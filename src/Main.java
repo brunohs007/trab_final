@@ -1,8 +1,9 @@
+import java.io.IOException;
 import view.TwitterView;
 
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		TwitterView view = new TwitterView();
-		view.exibirMenu();
+		view.telaInicial();
 	}
 }

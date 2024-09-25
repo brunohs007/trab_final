@@ -1,6 +1,8 @@
 package model;
 
-public class Tweet {
+import java.io.Serializable;
+
+public class Tweet implements Serializable {
     private String mensagem;
 
     public Tweet(String mensagem) {

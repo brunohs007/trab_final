@@ -1,0 +1,18 @@
+{
+"perfis": [
+{
+"usuario": "tori",
+"ativo": true,
+"tweets": ["testando a aplica��o"],
+"seguidos": ["vitoria"],
+"seguindo": []
+},
+{
+"usuario": "vitoria",
+"ativo": true,
+"tweets": [],
+"seguidos": [],
+"seguindo": ["tori"]
+}
+]
+}
