@@ -36,7 +36,7 @@ public class TwitterView {
                 case 2:
                     criarPerfil();
                     break;
-                case 3:
+                case 0:
                     System.out.println("Desligando...");
                     return;
                 default:
@@ -45,14 +45,6 @@ public class TwitterView {
         }
     }
 
-    //1.
-    // A variavel usuário é atributida no login. A partir daqui, as funções do
-    // menu(Postar Twet, Seguir Usuário) consegue identificar o usuário que as
-    // executa.
-
-    //2.
-    //As funções do menu buscam o usuario que as executa no repositorio. Como o usuário precisa já está logado para executar essa funções, a busca no repositorio não é mais necessária para o Login
-    //Mas a busca pode continuar com a buscar, pois pode se necessária para armazenar dados noa arquivo de usuários
     public void login() throws IOException {
         while (true) {
             System.out.println("\nLogin");
@@ -70,7 +62,7 @@ public class TwitterView {
                 return;
             } else {
                 System.out.println("Nome de usuário ou senha incorretos.");
-                System.out.println("-----------------------\n");
+                telaInicial();
             }
             // talvez tela inicial aqui ou uma forma de volta a ela.
         }
@@ -129,8 +121,6 @@ public class TwitterView {
             controller.criarPerfil(nomeUsuario);
             System.out.println("\nPerfil criado com sucesso!");
 
-
-
         } catch (Exception e) {
             System.out.println("Erro ao criar perfil: " + e.getMessage());
         }
@@ -152,7 +142,7 @@ public class TwitterView {
         System.err.println("\n------------------------");
         try {
             Vector<Tweet> timeline = controller.verTimeline(nomeUsuario);
-            System.out.println("\nTimeline de " + nomeUsuario + ":");
+            System.out.println("Timeline de " + nomeUsuario + ":");
             for (Tweet tweet : timeline) {
                 System.out.println(tweet.getMensagem());
             }
@@ -178,7 +168,7 @@ public class TwitterView {
         System.err.println("\n------------------------");
         try {
             Vector<model.Perfil> seguindo = controller.verSeguindo(nomeUsuario);
-            System.out.println("\n" + nomeUsuario + " está seguindo:");
+            System.out.println(nomeUsuario + " está seguindo:");
             for (model.Perfil perfil : seguindo) {
                 System.out.println(perfil.getUsuario());
             }
